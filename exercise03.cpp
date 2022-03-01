@@ -3,6 +3,14 @@
 using namespace std;
 
 int volume(int height, int width, int length);
+struct Box{
+
+  int height;
+  int width;
+  int length;
+
+}box1, box2;
+
 
 // 1. Define a structure called Box
 // have the integer data types Height, Width, Length
@@ -41,3 +49,7 @@ int main() {
 }
 
 // Implement the functions here
+int volume(int height, int width, int length)
+{
+  return height * width * length;
+}
